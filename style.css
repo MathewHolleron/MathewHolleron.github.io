@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(195, 196, 197);
+}
+.navbar{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    font-size: 300%;
+    background-color: rgb(109, 108, 108);
+    box-shadow: 1px 10px  rgb(63, 63, 63);
+    font-family:fantasy,copperplate, serif;
+    
+   }
+.navbox{
+    color: black;
+    background-color: rgb(133, 131, 131);
+    padding-inline-start: 0;
+    padding: 4%;
+    border:2px groove black;
+    
+}
+.navbox1{
+    color: black;
+    background-color: rgb(133, 131, 131);
+    padding-inline-start: 0;
+    padding: 3%;
+    border:2px groove black;
+    font-size: 110%;
+    text-decoration: underline dotted ;
+
+}
+a{
+    color: black;
+}
