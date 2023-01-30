@@ -1,27 +1,27 @@
 body{
-    background-color: rgb(195, 196, 197);
+    background-color: rgb(80, 79, 79);
 }
 .navbar{
     display: flex;
     align-items: flex-start;
-    justify-content: space-evenly;
+    justify-content: space-between;
     font-size: 300%;
-    background-color: rgb(109, 108, 108);
-    box-shadow: 1px 10px  rgb(63, 63, 63);
+    background-color: rgb(110, 107, 107);
+    box-shadow: 0px 7px 10px  rgb(194, 192, 192);
     font-family:fantasy,copperplate, serif;
     
    }
 .navbox{
     color: black;
-    background-color: rgb(133, 131, 131);
+    background-color: rgb(155, 151, 151);
     padding-inline-start: 0;
     padding: 4%;
     border:2px groove black;
     
 }
 .navbox1{
-    color: black;
-    background-color: rgb(133, 131, 131);
+    
+    background-color: rgb(194, 191, 191);
     padding-inline-start: 0;
     padding: 3%;
     border:2px groove black;
@@ -31,4 +31,10 @@ body{
 }
 a{
     color: black;
+}
+header{
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+    background-color: rgb(158, 158, 157);
 }
