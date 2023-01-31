@@ -1,22 +1,26 @@
 body{
     background-color: rgb(80, 79, 79);
+    margin: 0;
 }
 .navbar{
     display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
     font-size: 300%;
     background-color: rgb(110, 107, 107);
-    box-shadow: 0px 7px 10px  rgb(194, 192, 192);
+    box-shadow: 0px 5px 6px  rgb(127, 245, 235);
     font-family:fantasy,copperplate, serif;
+    min-width: 96vw;
+    padding:10px
     
    }
 .navbox{
     color: black;
     background-color: rgb(155, 151, 151);
     padding-inline-start: 0;
-    padding: 4%;
+    padding: 3%;
     border:2px groove black;
+    text-align: center;
     
 }
 .navbox1{
@@ -25,7 +29,7 @@ body{
     padding-inline-start: 0;
     padding: 3%;
     border:2px groove black;
-    font-size: 110%;
+   
     text-decoration: underline dotted ;
 
 }
@@ -34,7 +38,33 @@ a{
 }
 header{
     display: flex;
-    justify-content: center;
-    margin-top: 8%;
+    justify-content: flex-start;
+    margin: 7%;
     background-color: rgb(158, 158, 157);
+    border: 5px groove rgb(127, 245, 235);
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    background-color: rgb(170, 167, 167);
+    padding: 3%;
+    
+    text-align: left;
+    position:fixed;
+    bottom: 0;
+    min-width: 100%;
+}
+.footerp{
+    font-size: 100%;
+    display: flex;
+    padding-right: 40%;
+    
+}
+.footerimage{
+    display: flex;
+    flex-direction:row-reverse  ;
+    margin-left: 20%;
 }
