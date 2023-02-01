@@ -64,6 +64,32 @@ h1{
     
     
 }
+
+    
+
+
+.seccontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2%;
+    border: 5px groove rgb(127, 245, 235);
+    background-color: rgb(158, 158, 157);
+    
+   
+}
+
+.seccontainer p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 70%;
+    
+}
+
+.seccontainer img{
+   padding: 2%;
+   
+}
+
 @keyframes color {
     0%{
         background-position: 0 50%;
@@ -97,9 +123,11 @@ footer{
     display: flex;
     padding-right: 40%;
     font-family: 'Montserrat', sans-serif;
+    
 }
 .footerimage{
     display: flex;
     flex-direction:row-reverse  ;
-    margin-left: 20%;
+    margin-left: 30%;
+    margin-top: 2%;
 }
