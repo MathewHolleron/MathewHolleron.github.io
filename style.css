@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(80, 79, 79);
+    
     margin: 0;
 }
 .navbar{
@@ -9,7 +9,7 @@ body{
     font-size: 300%;
     background-color: rgb(110, 107, 107);
     box-shadow: 0px 5px 6px  rgb(127, 245, 235);
-    font-family:fantasy,copperplate, serif;
+    font-family: 'Outfit', sans-serif;
     min-width: 96vw;
     padding:10px
     
@@ -21,6 +21,7 @@ body{
     padding: 3%;
     border:2px groove black;
     text-align: center;
+    margin-bottom: 7%;
     
 }
 .navbox1{
@@ -43,6 +44,28 @@ header{
     background-color: rgb(158, 158, 157);
     border: 5px groove rgb(127, 245, 235);
 }
+.gradient{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(45deg,
+    rgb(156, 156, 156),rgb(100, 99, 99),
+     rgb(77, 76, 76),rgb(0, 0, 0));
+     background-size: 300% 300%;
+     animation: color 12s ease-in-out infinite;
+    
+    
+}
+@keyframes color {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
 footer{
     display: flex;
     flex-direction: row;
@@ -50,12 +73,14 @@ footer{
     flex-wrap: wrap;
     align-items: flex-end;
     background-color: rgb(170, 167, 167);
-    padding: 3%;
+    padding-left: 3%;
     
     text-align: left;
     position:fixed;
     bottom: 0;
     min-width: 100%;
+    min-height: 10%;
+    max-height: 11%;
 }
 .footerp{
     font-size: 100%;
