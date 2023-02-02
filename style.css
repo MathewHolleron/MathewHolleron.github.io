@@ -70,11 +70,15 @@ h1{
 
 .seccontainer{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
+    align-items:flex-end;
     margin: 2%;
     border: 5px groove rgb(127, 245, 235);
     background-color: rgb(158, 158, 157);
+    font-family: 'Outfit', sans-serif;
+    
+    
     
    
 }
@@ -82,12 +86,39 @@ h1{
 .seccontainer p{
     font-family: 'Montserrat', sans-serif;
     font-size: 70%;
+    padding: 2%;
     
 }
 
 .seccontainer img{
-   padding: 2%;
+   padding: 0%;
    
+}
+.imagealone{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10%;
+    
+}
+.imagealone2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5%;
+    border: 5px groove rgb(127, 245, 235);
+    margin-left: 29%;
+    width: 41%;
+
+}
+.portfoliocontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+    background-color: rgb(158, 158, 157);
+    border: 5px groove rgb(127, 245, 235);
 }
 
 @keyframes color {
@@ -111,23 +142,40 @@ footer{
     padding-left: 3%;
     
     text-align: left;
-    position:fixed;
+    position: fixed;
     bottom: 0;
-    min-width: 100%;
-    min-height: 10%;
-    max-height: 11%;
+    left: 0;
+    width: 100%;
+    height: 10vh;
+   
+    
     border-top:5px groove rgb(127, 245, 235); 
+    background-color: rgb(170, 167, 167);
 }
 .footerp{
-    font-size: 140%;
-    display: flex;
+    font-size: 100%;
+    
     padding-right: 40%;
     font-family: 'Montserrat', sans-serif;
     
 }
 .footerimage{
-    display: flex;
-    flex-direction:row-reverse  ;
+    
+    
     margin-left: 30%;
-    margin-top: 2%;
+    margin-top: 1%;
+}
+.footerdiv{
+    width: 100%;
+    height: 10vh;
+}
+@media screen and (max-width: 391px) { 
+    body{
+        font-size: 50%;
+        min-height: 100vh;
+    }
+    .seccontainer{
+        align-items:flex-start;
+    }
+    
 }
