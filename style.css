@@ -105,11 +105,10 @@ h1{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 5%;
+    margin: 5% 29% 5% 29%;
     border: 5px groove rgb(127, 245, 235);
-    margin-left: 29%;
     width: 41%;
-
+    height: 41%;
 }
 .portfoliocontainer{
     display: flex;
@@ -171,19 +170,23 @@ footer{
     width: 100%;
     min-height: 30vh;
 }
-@media screen and (max-width: 391px) { 
+@media screen and (min-width: 391px) { 
     body{
-        font-size: 50%;
+        font-size: 70%;
         height: 100vh;
     }
     .seccontainer{
         align-items:flex-start;
-        margin-bottom: 60%;
+        
     }
     footer{
         height: 20vh;
+        
     }
     .footerdiv{
         height: 20vh;
+    }
+    .pul{
+        align-items: flex-start;
     }
 }
